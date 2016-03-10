@@ -1,0 +1,110 @@
+section {
+	color: white;
+	background: #333;
+}
+header {
+	background: black;
+}
+.logo {
+	width: 55%;
+	padding: 0 !important;
+}
+nav {
+	background: black;
+	padding: 15px 100px !important;
+}
+nav ul li a  {
+	color: white;
+}
+nav ul li a:hover {
+	background: #333 !important;
+	color: white;
+}
+.navbar-toggle {
+	color: white !important;
+	font-size: 20px;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+}
+
+@media screen and (max-width: 766px) {
+	.blog {
+		display: none;
+	}
+}
+/*---------- SECTIONN 1 ----------*/
+section {
+	padding-bottom: 40px;
+}
+
+#flowers {
+	padding-top: 75px
+}
+.caja h1 {
+	font-size: 80px;
+}
+.bg-img {
+	background-image: url("../img/header-image.jpg");
+	background-size: 100%;
+	padding: 95px 0;
+	margin: 5px 0;
+}
+.caja {
+	width: 60%;
+	background: black;
+	margin: auto;
+	padding: 35px 0;
+}
+#flowers .thumbnail {
+	background: #1C1821;
+	border: none;
+	padding: 0;
+}
+.img-blog {
+	width: 100%;
+}
+.bg-gray {
+	background: #1C1821;
+	padding: 20px;
+	margin: auto;
+}
+.photo {
+	width: 100%;
+}
+.redes span {
+	background: #1C1821;
+	border-radius: 50%;
+	width: 42px;
+	font-size: 20px;
+	padding: 12px;
+	margin: 10px;
+}
+.text-orange {
+	font-family: Courgette;
+	color: orange;
+}
+input {
+	width: 100%;
+}
+.bg {
+	width: 100%;
+	padding-bottom: 20px;
+}
+.redes span {
+	background: #333;
+}
+.redes a {
+	color: white;
+}
+.redes a:hover {
+	color: white;
+}
+/*---------- FOOTER ----------*/
+footer {
+	font-size: 15px;
+}
+.text-white {
+	color: white;
+}
