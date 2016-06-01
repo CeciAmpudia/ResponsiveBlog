@@ -1,17 +1,18 @@
+
 section {
 	color: white;
 	background: #333;
+	padding-bottom: 5%;
 }
 header {
 	background: black;
 }
 .logo {
-	width: 55%;
 	padding: 0 !important;
 }
 nav {
 	background: black;
-	padding: 15px 100px !important;
+	padding: 1% 12% !important;
 }
 nav ul li a  {
 	color: white;
@@ -22,7 +23,10 @@ nav ul li a:hover {
 }
 .navbar-toggle {
 	color: white !important;
-	font-size: 20px;
+	font-size: 2em;
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
 }
 /* Responsive */
 
@@ -35,27 +39,23 @@ nav ul li a:hover {
 	}
 }
 /*---------- SECTIONN 1 ----------*/
-section {
-	padding-bottom: 40px;
-}
-
 #flowers {
 	padding-top: 75px
 }
 .caja h1 {
-	font-size: 80px;
+	font-size: 5em;
 }
 .bg-img {
 	background-image: url("../img/header-image.jpg");
 	background-size: 100%;
-	padding: 95px 0;
+	padding: 10% 0;
 	margin: 5px 0;
 }
 .caja {
-	width: 60%;
+	width: 70%;
 	background: black;
 	margin: auto;
-	padding: 35px 0;
+	padding: 5% 0;
 }
 #flowers .thumbnail {
 	background: #1C1821;
@@ -67,7 +67,7 @@ section {
 }
 .bg-gray {
 	background: #1C1821;
-	padding: 20px;
+	padding: 5%;
 	margin: auto;
 }
 .photo {
@@ -90,10 +90,13 @@ input {
 }
 .bg {
 	width: 100%;
-	padding-bottom: 20px;
+	padding-bottom: 5%;
 }
 .redes span {
 	background: #333;
+}
+.redes span:hover {
+	background-color: black;
 }
 .redes a {
 	color: white;
@@ -103,7 +106,7 @@ input {
 }
 /*---------- FOOTER ----------*/
 footer {
-	font-size: 15px;
+	font-size: 1em;
 }
 .text-white {
 	color: white;
